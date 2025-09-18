@@ -9,6 +9,7 @@ public class GCD {
     int b = sc.nextInt();
     int divisor = Math.min(a, b);
     int dividend = Math.max(a, b);
+    int hcf=0;
 
 
 
@@ -34,12 +35,15 @@ public class GCD {
       int rem = dividend%divisor;
       if(rem==0){
         System.out.println(divisor);
+        hcf=divisor;
         break;
       }
 
       dividend=divisor;
       divisor=rem;
     }
+
+    System.out.println(" lcm is " + (a*b)/hcf);
 
 
 
