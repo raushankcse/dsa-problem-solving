@@ -1,7 +1,9 @@
 package Day10;
 
 public class Question1 {
+
   public static void main(String[] args) {
+    // reverse the element
     int[] arr = {1,2,3,4,5,7,8};
     int i=0;
     int j=arr.length-1;
