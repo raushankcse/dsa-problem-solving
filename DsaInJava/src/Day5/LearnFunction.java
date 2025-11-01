@@ -6,10 +6,7 @@ public class LearnFunction {
     int a=5;
     int b=6;
     
-    
-    add(){
-      int c=6;
-    }
+
 
   }
 }
