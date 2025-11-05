@@ -1,10 +1,14 @@
 package Day16;
 
+import java.util.Scanner;
+
 public class Question2 {
   // book allocation 
   public static void main(String[] args) {
-    int arr[] = {10,20,30,40 };
+    Scanner sc = new Scanner(System.in);
+    int arr[] = {12 ,34, 67, 90 };
     int nos=2;
+
 
     System.out.println(bookAllocation(arr,nos));
   }
