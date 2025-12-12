@@ -1,3 +1,5 @@
+// print 1 to n natural numbers using recurison
+
 #include<bits/stdc++.h>
 using namespace std;
 
